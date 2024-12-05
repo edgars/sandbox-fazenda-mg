@@ -15,18 +15,21 @@ body {
 
 h1{
   font-family: "Quicksand", serif;
+  color: var(ifm-color-primary);
+
 }
 
 h2{
   font-family: "Quicksand", serif;
+  color: #1fa588
 }
 
 
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary: #23635e;
+  --ifm-color-primary-dark: #216c55;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;
@@ -49,3 +52,16 @@ h2{
 }
 
 
+.footer--dark {
+  --ifm-footer-background-color: #252323;
+  --ifm-footer-color: var(--ifm-footer-link-color);
+  --ifm-footer-link-color: var(--ifm-color-secondary);
+  --ifm-footer-title-color: var(--ifm-color-white);
+}
+
+.footer--light {
+  --ifm-footer-background-color: #fffefe;
+  --ifm-footer-color: var(--ifm-footer-link-color);
+  --ifm-footer-link-color: var(--ifm-color-secondary);
+  --ifm-footer-title-color: var(--ifm-color-white);
+}

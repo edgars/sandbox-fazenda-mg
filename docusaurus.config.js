@@ -70,6 +70,35 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
+      metadata: [
+        {name: 'keywords', content: 'sandbox, monetização, dados fazenda MG'},
+        {name: 'twitter:card', content: 'summary_large_image'},
+      ],
+      headTags: [
+        // Declare a <link> preconnect tag
+        {
+          tagName: 'link',
+          attributes: {
+            rel: 'preconnect',
+            href: 'https://example.com',
+          },
+        },
+        // Declare some json-ld structured data
+        {
+          tagName: 'script',
+          attributes: {
+            type: 'application/ld+json',
+          },
+          innerHTML: JSON.stringify({
+            '@context': 'https://schema.org/',
+            '@type': 'Organization',
+            name: 'Skalena',
+            url: 'https://opensource.skalena.com/',
+            logo: 'https://www.skalena.co/logo.svg',
+          }),
+        },
+      ],
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -88,14 +117,20 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://www.skalena.com',
+            label: 'Skalena Site',
+            position: 'right',
+          },
+          {
+            href: 'https://www.skalena.com/contato',
+            label: 'Contato',
             position: 'right',
           },
         ],
       },
       footer: {
         style: 'dark',
+        
         links: [
 
         ],

@@ -70,8 +70,13 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
+          "href": "https://www.skalena.com",
+          "label": "Skalena Site",
+          "position": "right"
+        },
+        {
+          "href": "https://www.skalena.com/contato",
+          "label": "Contato",
           "position": "right"
         }
       ],
