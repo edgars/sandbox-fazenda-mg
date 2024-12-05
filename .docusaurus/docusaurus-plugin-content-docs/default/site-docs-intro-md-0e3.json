@@ -1,0 +1,24 @@
+{
+  "id": "intro",
+  "title": "Dashflow",
+  "description": "Bem vindo a plataforma de exploração, consolidação, exposição e monetização de dados oriundos da Secretaria de Fazenda de Minas Gerais. Este é um ambiente de Sandbox, testes e degustação de nossa plataforma.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/",
+    "title": "Dashflow"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Datasets - Iniciais",
+    "permalink": "/category/datasets---iniciais"
+  }
+}

@@ -80,11 +80,12 @@ A remuneração por preço público exigida para o fornecimento de dados é regr
 
 A representação gráfica do processo de fornecimento de dados proveniente de documentos fiscais eletrônicos NFe e NFCe é apresentada abaixo:
 
-![fluxograma ilustrativo com o passo a passo dos caminhos para solução da questão do sandbox e disponibilização dos dados](https://sandbox.fazenda.mg.gov.br/assets/Jornada_da_solucao-st1LK8Od.png)
+
+![Jornada da solução](../static/img/Jornada_da_solucao-st1LK8Od.png)
 
 
 ### Fluxograma
 
 O fluxo de disponibilização de dados é apresentado abaixo:
 
-![fluxograma ilustrativo com o passo a passo dos caminhos para solução da questão do sandbox e disponibilização dos dados](https://sandbox.fazenda.mg.gov.br/assets/fluxograma-C3VxQSF9.png)
+![Fluxograma](../static/img/fluxograma-C3VxQSF9.png)
