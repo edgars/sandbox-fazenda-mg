@@ -49,6 +49,36 @@ export default {
     ]
   ],
   "themeConfig": {
+    "sidebar": {
+      "hideable": true,
+      "autoCollapseCategories": true
+    },
+    "metadata": [
+      {
+        "name": "keywords",
+        "content": "sandbox, monetização, dados fazenda MG"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "headTags": [
+      {
+        "tagName": "link",
+        "attributes": {
+          "rel": "preconnect",
+          "href": "https://example.com"
+        }
+      },
+      {
+        "tagName": "script",
+        "attributes": {
+          "type": "application/ld+json"
+        },
+        "innerHTML": "{\"@context\":\"https://schema.org/\",\"@type\":\"Organization\",\"name\":\"Skalena\",\"url\":\"https://opensource.skalena.com/\",\"logo\":\"https://www.skalena.co/logo.svg\"}"
+      }
+    ],
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
       "title": "Dashflow",
@@ -308,7 +338,6 @@ export default {
         "groupByYear": true
       }
     },
-    "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3

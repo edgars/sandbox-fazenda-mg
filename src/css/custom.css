@@ -21,7 +21,12 @@ h1{
 
 h2{
   font-family: "Quicksand", serif;
-  color: #1fa588
+  color: #1fa588;
+}
+
+h3{
+  font-family: "Quicksand", serif;
+  color: gray;
 }
 
 
@@ -64,4 +69,21 @@ h2{
   --ifm-footer-color: var(--ifm-footer-link-color);
   --ifm-footer-link-color: var(--ifm-color-secondary);
   --ifm-footer-title-color: var(--ifm-color-white);
+}
+
+.theme-doc-sidebar-toggle {
+  background-color: #007BFF; /* Cor de fundo personalizada */
+  color: #fff; /* Cor do ícone */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: fixed;
+  top: 10px; /* Ajuste a posição conforme necessário */
+  left: 10px;
+  z-index: 1000; /* Garanta que o botão esteja acima dos outros elementos */
+}
+
+.theme-doc-sidebar-toggle:hover {
+  background-color: #0056b3; /* Cor ao passar o mouse */
 }

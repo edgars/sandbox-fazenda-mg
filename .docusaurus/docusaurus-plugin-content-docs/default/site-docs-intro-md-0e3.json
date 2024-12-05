@@ -1,7 +1,7 @@
 {
   "id": "intro",
-  "title": "Tutorial Intro",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "title": "Dashflow",
+  "description": "Bem vindo a plataforma de exploração, consolidação, exposição e monetização de dados oriundos da Secretaria de Fazenda de Minas Gerais. Este é um ambiente de Sandbox, testes e degustação de nossa plataforma.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/",
@@ -13,7 +13,8 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1,
-    "slug": "/"
+    "slug": "/",
+    "title": "Dashflow"
   },
   "sidebar": "tutorialSidebar",
   "next": {

@@ -44,6 +44,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/'
+          
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.,
         },
@@ -70,6 +71,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true, // Automatically collapse other categories
+      },
 
       metadata: [
         {name: 'keywords', content: 'sandbox, monetização, dados fazenda MG'},
