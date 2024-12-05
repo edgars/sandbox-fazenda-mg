@@ -7,9 +7,9 @@ export default {
   "title": "Skalena - Dashflow",
   "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://dashflow-mg.skalena.com",
   "baseUrl": "/",
-  "organizationName": "facebook",
+  "organizationName": "skalena",
   "projectName": "docusaurus",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
@@ -27,7 +27,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "routeBasePath": "/"
         },
         "blog": {
           "showReadingTime": true,
@@ -38,7 +38,6 @@ export default {
             ],
             "xslt": true
           },
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
           "onInlineTags": "warn",
           "onInlineAuthors": "warn",
           "onUntruncatedBlogPosts": "warn"
@@ -55,7 +54,8 @@ export default {
       "title": "Dashflow",
       "logo": {
         "alt": "Skalena",
-        "src": "img/logo.avif"
+        "src": "img/logo.png",
+        "srcDark": "img/logo2.png"
       },
       "items": [
         {

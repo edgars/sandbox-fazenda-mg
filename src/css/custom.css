@@ -4,6 +4,25 @@
  * work well for content-centric websites.
  */
 
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+body {
+  font-family: "MuseoModerno", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1{
+  font-family: "Quicksand", serif;
+}
+
+h2{
+  font-family: "Quicksand", serif;
+}
+
+
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
